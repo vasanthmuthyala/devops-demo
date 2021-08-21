@@ -1,0 +1,36 @@
+    1  apt update
+    2  apt update -y
+    3  apt install net-tools
+    4  ifconfig
+    5  passwd www
+    6  useradd vasanth
+    7  passwd vasanth
+    8  ifconfig 
+    9  vi /etc/ssh/ssh_config
+   10  vi /etc/ssh/sshd_config
+   11  init 6
+   12  ifconfig 
+   13  apt install git
+   14  mkdir /git
+   15  cd /git
+   16* git ini
+   17  echo "hi 2nd pc" > 1.txt
+   18  git add .
+   19  git commit -m "2nd server"
+   20  git config --global user.email "muthyalavasanth@gmail.com"
+   21  git config --global user.name vasanthmuthyala
+   22  git commit -m "2nd server"
+   23  git branch
+   24  git remote add origin http://github.com/vasanthmuthyala
+   25  git push origin master
+   26  git remote add origin http://github.com/devops-demo
+   27  http://github.com/vasanthmuthyala
+   28  git remote add origin http://github.com/vasanthmuthyala
+   29  git push origin master
+   30  ww:/git# git push origin master
+   31  remote: Not Found
+   32  git remote add origin git@github.com:vasanthmuthyala/devops-demo
+   33  fatal: remote origin already exists.
+   34  git remote set-url origin https://github.com/vasanthmuthyala/devops-demo
+   35  git push origin master
+   36  history > history.txt
